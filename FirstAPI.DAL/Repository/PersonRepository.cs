@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace FirstAPI.DAL.Repository
 {
+    /// <summary>
+    /// Implements IRepository
+    /// </summary>
    public class PersonRepository : IRepository<Person>
     {
         private readonly ApplicationDbContext _dbContext;

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace FirstAPI.BLL.Interface
 {
+    /// <summary>
+    /// Person service interface
+    /// </summary>
    public interface IPersonService
     {
         public IEnumerable<Person> GetPersonByUserId(Guid userId);

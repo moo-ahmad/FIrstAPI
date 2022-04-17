@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace FirstAPI.BLL.Service
 {
+    /// <summary>
+    /// Implements IPersonService
+    /// </summary>
     public class PersonService : IPersonService
     {
         private readonly IRepository<Person> _repository;
